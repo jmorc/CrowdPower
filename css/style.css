@@ -1,0 +1,122 @@
+
+h2 {
+  margin-top: 60px;
+}
+
+h4 {
+  margin-top: 30px;
+}
+
+hr {
+  margin: 20px 15px 20px 15px;
+  border-width: 2px;
+}
+
+p {
+  font-size: 18px;
+}
+
+textarea {
+  color: Silver;
+  padding: 20px;
+  resize: none;
+  width: 100%;
+  border: 2px solid LightGray;
+  border-radius: 10px;
+}
+
+textarea:focus {
+  outline: none;
+  border: 2px solid RoyalBlue
+}
+
+.btn-menu {
+  color:#555;
+  border: none;
+  float: right; 
+  padding-right: 0px; 
+}
+
+.btn-menu:hover {
+  background-color: white; 
+}
+
+#btn-send {
+  margin: 20px 15px 0px 0px;
+  color: white;
+  font-weight: bold;
+  background-color: RoyalBlue;
+}
+
+.customer-needs-form {
+  padding: 20px;
+  background-color: #ededed;
+  height: 260px;
+}
+
+.footer-item {
+  float: left;
+  color: #555;
+  margin-top: 50px;
+  margin-right: 30px;
+  margin-bottom: 100px;
+}
+
+.getting-started {
+  padding-left: 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+.use-case-outer {
+  float: left;
+  margin-bottom: 25px; 
+  height:190px;
+  border: 2px solid #ededed;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #ededed;
+}
+
+.use-case-image {
+  height:150px;
+  background-color: #ededed;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+}
+
+.use-case-image img {
+  flex-shrink:0;
+  width:85%;
+}
+
+.use-case-text {
+  padding: 10px;
+  font-weight: bold;
+}
+
+#upload-button {
+  color: white;
+  background-color: DimGray; 
+  fontsize: 12p; 
+  family:'proxima-nova', sans-serif; 
+  border: none;
+}
+
+.upload-drop {
+  float: left;
+  padding: 6px 12px;
+  border: 1px dashed DimGray;
+  border-radius: 4px;
+  margin-left: 10px
+}
+
+ul,li { 
+  list-style-type: none;
+  list-style-position:inside;
+  margin:0;
+  padding:0;
+}
